@@ -25,8 +25,6 @@ For high priority missing features, see [TODO](#todo)
 cd && git clone https://github.com/Taarique/blutter.git && pip install requests pyelftools && pkg install -y git cmake ninja build-essential pkg-config libicu capstone fmt && cd blutter/ && find -type f -exec sed -i 's/std::format/fmt::format/g' {} +
 ```
 
-https://github.com/dedshit/blutter-termux/assets/62318734/b7376844-96b0-4aa0-a395-9009d009132e
-
 
 ## Environment Setup
 This application uses C++20 Formatting library. It requires very recent C++ compiler such as g++>=13, Clang>=16.
