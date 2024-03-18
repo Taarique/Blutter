@@ -22,7 +22,7 @@ For high priority missing features, see [TODO](#todo)
 
 **OR You can copy paste below command to install all requirements:**
 ```
-cd && git clone https://github.com/Taarique/blutter.git && pip install requests pyelftools && pkg install -y git cmake ninja build-essential pkg-config libicu capstone fmt && cd blutter/ && find -type f -exec sed -i 's/std::format/fmt::format/g' {} +
+cd && pkg install python-pip && git clone https://github.com/Taarique/blutter.git && pip install requests pyelftools && pkg install -y git cmake ninja build-essential pkg-config libicu capstone fmt && cd blutter/ && find -type f -exec sed -i 's/std::format/fmt::format/g' {} +
 ```
 
 
